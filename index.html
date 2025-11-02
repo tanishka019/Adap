@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinTech Launch - Next-Gen Finance</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#4F46E5', // Indigo-600 for main accents
+                        'secondary': '#374151', // Gray-700
+                        'bg-dark': '#0F172A', // Slate-900 for dark mode background
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-bg-dark text-white font-sans">
+
+    <header class="py-4 border-b border-gray-800 sticky top-0 bg-bg-dark z-50">
+        <div class="container mx-auto flex justify-between items-center px-6">
+           <a href="#" class="flex items-center space-x-2">
+             <img src="../images/logo.png" alt="Company Logo" class="h-20 w-auto">
+            <span class="!text-1000xl font-bold text-white">AI FinTrack</span>
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#about" class="hover:text-primary transition duration-300">About</a>
+                <a href="#features" class="hover:text-primary transition duration-300">Features</a>
+                <a href="#pricing" class="hover:text-primary transition duration-300">Pricing</a>
+                <a href="#team" class="hover:text-primary transition duration-300">Team</a>
+                <a href="#" class="hover:text-primary transition duration-300">Blog</a>
+            </nav>
+            <button class="bg-primary text-white py-2 px-4 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300">
+                Sign In
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="pt-20 pb-28 text-center hero-bg relative">
+           
+  <!-- Background Video -->
+            <video autoplay muted loop playsinline class="hero-video">
+            <source src="../images/bg_video.mp4" type="video/mp4">
+             Your browser does not support the video tag.
+            </video>
+              <div class="absolute inset-0 bg-black/80 -z-10"></div>
+            <div class="container mx-auto px-6 z-10">
+                <p class="text-primary uppercase tracking-widest text-sm mb-4">Smarter Expense Tracking for a Smarter You.</p>
+                <h1 class="text-6xl font-extrabold mb-6 leading-tight">
+                    The <span class="text-primary">Next Generation</span> of <br class="hidden sm:block">
+                    well structured Finance
+                </h1>
+                <p class="text-white-400 text-xl max-w-3xl mx-auto mb-10">
+                    Turn chaos into clarity — automate your bills, stay on top of due dates, and let smart insights guide your spending.
+                </p>
+                <div class="space-x-4">
+                    <button class="get-started-btn py-3 px-8 rounded-full text-lg font-bold shadow-lg transition duration-300 transform hover:scale-105">
+                    Get Started 
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-20 bg-gray-900 bg-cover bg-center bg-no-repeat"
+        style="background-image: url('../images/bg2.jpg');">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-16">Why Choose FinTechX?</h2>
+                <div class="grid md:grid-cols-3 gap-10">
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl transition duration-500 hover:bg-gray-700 transform hover:-translate-y-1">
+                        <div class="text-primary text-4xl mb-4">🚀</div>
+                        <h3 class="text-2xl font-semibold mb-3">Instant Transactions</h3>
+                        <p class="text-gray-400">Experience lightning-fast deposits and withdrawals globally</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl transition duration-500 hover:bg-gray-700 transform hover:-translate-y-1">
+                        <div class="text-primary text-4xl mb-4">💰</div>
+                        <h3 class="text-2xl font-semibold mb-3">Smart Investments</h3>
+                        <p class="text-gray-400">Let data do the thinking — our intelligent system analyzes trends and helps you make smarter, faster investment decisions.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl transition duration-500 hover:bg-gray-700 transform hover:-translate-y-1">
+                        <div class="text-primary text-4xl mb-4">🕒</div>
+                        <h3 class="text-2xl font-semibold mb-3">Smart Reminderss</h3>
+                        <p class="text-gray-400">Stay ahead effortlessly — our intelligent reminders keep track of every bill and alert you before payments are due.
+                        </p>
+                    </div>
+                </div>
+            </div>
+       
+
+        <footer class="py-16  border-t border-gray-800">
+            <div class="px-6 text-center">
+                <h2 class="text-4xl font-bold mb-4">Ready to Transform Your Finances?</h2>
+                <p class="text-gray-400 text-xl mb-8">Join thousands of early adopters and start building wealth today.</p>
+                <button class="bg-primary text-white py-4 px-12 rounded-full text-xl font-bold shadow-xl hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+                    Start Your Journey Now
+                </button>
+            </div>
+            <div class="text-center text-sm text-gray-500 mt-16">
+                &copy; 2025 AI FinTrack. All rights reserved. Built for the Hackathon.
+            </div>
+        </footer>
+ </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
